@@ -1,5 +1,6 @@
 # Music
 ## Имперский марш
+```C++
 const byte piezoPin = 2;
 const byte COUNT_NOTES = 39;
 
@@ -32,8 +33,10 @@ void loop() {
     noTone(piezoPin);
   }
 }
+```
 
 ## Мелодия
+```C++
 #define BUZZER 8
 
 int melody[] = {349, 330, 294, 523, 392, 392};
@@ -52,3 +55,4 @@ noTone(8);
 }
 delay(5000);
 }
+```
